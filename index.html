@@ -5,11 +5,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
   <title>Viraj Deorukhkar Tutoring</title>
-  <meta name="description" content="Premium online A-level Chemistry and Biology tutoring from Viraj Deorukhkar, Cambridge Natural Sciences graduate and incoming UCL medical student." />
+  <meta name="description" content="Online GCSE and A-level Chemistry and Biology tutoring from Viraj Deorukhkar, Cambridge Natural Sciences graduate and incoming UCL medical student." />
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
 
   <style>
     :root {
@@ -38,8 +38,8 @@
     body {
       font-family: "Inter", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
       background:
-        radial-gradient(circle at top left, rgba(133,176,154,0.24), transparent 34rem),
-        radial-gradient(circle at 90% 20%, rgba(133,176,154,0.16), transparent 28rem),
+        radial-gradient(circle at top left, rgba(133,176,154,0.22), transparent 34rem),
+        radial-gradient(circle at 92% 18%, rgba(133,176,154,0.13), transparent 28rem),
         var(--cream);
       color: var(--text);
       line-height: 1.6;
@@ -59,7 +59,7 @@
       position: sticky;
       top: 0;
       z-index: 20;
-      background: rgba(251, 250, 245, 0.9);
+      background: rgba(251, 250, 245, 0.92);
       backdrop-filter: blur(12px);
       border-bottom: 1px solid rgba(228, 232, 225, 0.9);
     }
@@ -73,7 +73,7 @@
     }
 
     .brand {
-      font-weight: 800;
+      font-weight: 850;
       letter-spacing: -0.04em;
       font-size: 1.08rem;
     }
@@ -83,12 +83,18 @@
       align-items: center;
       gap: 20px;
       color: var(--muted);
-      font-weight: 600;
+      font-weight: 650;
       font-size: 0.94rem;
     }
 
     .nav-links a:hover {
       color: var(--text);
+    }
+
+    .nav-actions {
+      display: flex;
+      align-items: center;
+      gap: 10px;
     }
 
     .button {
@@ -97,18 +103,19 @@
       justify-content: center;
       gap: 8px;
       border-radius: 999px;
-      padding: 12px 20px;
+      padding: 12px 19px;
       border: 1px solid transparent;
       font-weight: 800;
       cursor: pointer;
       transition: 0.2s ease;
       white-space: nowrap;
+      font-size: 0.95rem;
     }
 
     .button-primary {
       background: var(--text);
       color: var(--white);
-      box-shadow: 0 12px 28px rgba(31, 41, 51, 0.16);
+      box-shadow: 0 12px 28px rgba(31, 41, 51, 0.14);
     }
 
     .button-primary:hover {
@@ -117,7 +124,7 @@
     }
 
     .button-secondary {
-      background: rgba(255,255,255,0.8);
+      background: rgba(255,255,255,0.82);
       color: var(--text);
       border-color: var(--border);
     }
@@ -125,13 +132,14 @@
     .button-secondary:hover {
       transform: translateY(-2px);
       border-color: var(--cam-dark);
+      background: var(--white);
     }
 
     .marquee-wrap {
       border-bottom: 1px solid var(--border);
       background: var(--cam-soft);
       color: var(--cam-dark);
-      font-weight: 800;
+      font-weight: 850;
       font-size: 0.95rem;
       padding: 9px 0;
       letter-spacing: -0.01em;
@@ -156,12 +164,12 @@
       display: inline-flex;
       align-items: center;
       gap: 10px;
-      background: rgba(255,255,255,0.75);
+      background: rgba(255,255,255,0.78);
       border: 1px solid var(--border);
       color: var(--cam-dark);
       padding: 8px 14px;
       border-radius: 999px;
-      font-weight: 800;
+      font-weight: 850;
       font-size: 0.9rem;
       margin-bottom: 22px;
     }
@@ -174,17 +182,17 @@
     }
 
     h1 {
-      font-size: clamp(2.75rem, 6vw, 5.3rem);
-      line-height: 0.96;
+      font-size: clamp(2.55rem, 5.7vw, 5rem);
+      line-height: 0.98;
       letter-spacing: -0.075em;
       margin-bottom: 24px;
-      max-width: 860px;
+      max-width: 900px;
     }
 
     .hero-copy {
-      font-size: 1.18rem;
+      font-size: 1.16rem;
       color: var(--muted);
-      max-width: 680px;
+      max-width: 690px;
       margin-bottom: 30px;
     }
 
@@ -206,7 +214,7 @@
     }
 
     .mini-proof span {
-      background: rgba(255,255,255,0.72);
+      background: rgba(255,255,255,0.75);
       border: 1px solid var(--border);
       padding: 8px 12px;
       border-radius: 999px;
@@ -214,7 +222,7 @@
 
     .profile-card {
       position: relative;
-      background: rgba(255,255,255,0.88);
+      background: rgba(255,255,255,0.9);
       border: 1px solid var(--border);
       border-radius: 36px;
       padding: 30px;
@@ -229,7 +237,7 @@
       width: 210px;
       height: 210px;
       border-radius: 50%;
-      background: rgba(133,176,154,0.23);
+      background: rgba(133,176,154,0.22);
     }
 
     .profile-top {
@@ -251,6 +259,7 @@
       font-weight: 900;
       font-size: 1.55rem;
       box-shadow: inset 0 0 0 1px rgba(255,255,255,0.7);
+      flex: 0 0 auto;
     }
 
     .profile-top h2 {
@@ -276,10 +285,10 @@
       gap: 11px;
       padding: 13px 14px;
       border-radius: 18px;
-      background: rgba(251,250,245,0.8);
+      background: rgba(251,250,245,0.84);
       border: 1px solid var(--border);
       color: var(--muted);
-      font-weight: 600;
+      font-weight: 620;
     }
 
     .tick {
@@ -293,7 +302,7 @@
     }
 
     .section-heading {
-      max-width: 760px;
+      max-width: 780px;
       margin-bottom: 34px;
     }
 
@@ -325,11 +334,11 @@
     }
 
     .service-card {
-      background: rgba(255,255,255,0.83);
+      background: rgba(255,255,255,0.86);
       border: 1px solid var(--border);
       border-radius: var(--radius);
       padding: 26px;
-      box-shadow: 0 14px 34px rgba(31,41,51,0.055);
+      box-shadow: 0 14px 34px rgba(31,41,51,0.052);
       transition: 0.2s ease;
     }
 
@@ -360,12 +369,14 @@
       margin-bottom: 14px;
     }
 
-    .service-card ul {
+    .service-card ul,
+    .large-card ul {
       color: var(--muted);
       padding-left: 18px;
     }
 
-    .service-card li {
+    .service-card li,
+    .large-card li {
       margin-bottom: 6px;
     }
 
@@ -399,7 +410,7 @@
     }
 
     .feature-panel p {
-      color: rgba(255,255,255,0.77);
+      color: rgba(255,255,255,0.78);
       font-size: 1.05rem;
       margin-bottom: 18px;
     }
@@ -416,8 +427,8 @@
       border: 1px solid rgba(255,255,255,0.12);
       border-radius: 18px;
       padding: 15px 16px;
-      color: rgba(255,255,255,0.82);
-      font-weight: 600;
+      color: rgba(255,255,255,0.84);
+      font-weight: 620;
     }
 
     .feature-visual {
@@ -455,8 +466,8 @@
 
     .equation {
       margin-top: 22px;
-      font-size: 1.55rem;
-      font-weight: 800;
+      font-size: 1.45rem;
+      font-weight: 850;
       letter-spacing: -0.04em;
       color: var(--cam-dark);
     }
@@ -470,7 +481,7 @@
 
     .step {
       counter-increment: steps;
-      background: rgba(255,255,255,0.82);
+      background: rgba(255,255,255,0.84);
       border: 1px solid var(--border);
       border-radius: 26px;
       padding: 23px;
@@ -508,11 +519,11 @@
     }
 
     .large-card {
-      background: rgba(255,255,255,0.84);
+      background: rgba(255,255,255,0.86);
       border: 1px solid var(--border);
       border-radius: 34px;
       padding: 32px;
-      box-shadow: 0 14px 34px rgba(31,41,51,0.055);
+      box-shadow: 0 14px 34px rgba(31,41,51,0.052);
     }
 
     .large-card h3 {
@@ -526,24 +537,22 @@
       margin-bottom: 16px;
     }
 
-    .large-card ul {
-      color: var(--muted);
-      padding-left: 18px;
-    }
-
     .quote {
       background: var(--cam-soft);
       border: 1px solid rgba(133,176,154,0.35);
       border-radius: 34px;
       padding: 34px;
       color: var(--text);
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
     }
 
     .quote p {
-      font-size: 1.35rem;
+      font-size: 1.28rem;
       line-height: 1.45;
       letter-spacing: -0.04em;
-      font-weight: 750;
+      font-weight: 800;
       margin-bottom: 14px;
     }
 
@@ -553,7 +562,7 @@
     }
 
     .pricing-contact {
-      background: rgba(255,255,255,0.88);
+      background: rgba(255,255,255,0.89);
       border: 1px solid var(--border);
       border-radius: 42px;
       padding: 42px;
@@ -585,11 +594,18 @@
       background: var(--cream);
       border: 1px solid var(--border);
       color: var(--muted);
-      font-weight: 600;
+      font-weight: 620;
     }
 
     .contact-row strong {
       color: var(--text);
+    }
+
+    .contact-buttons {
+      display: flex;
+      gap: 12px;
+      flex-wrap: wrap;
+      margin-top: 4px;
     }
 
     footer {
@@ -602,6 +618,12 @@
     svg {
       max-width: 100%;
       height: auto;
+    }
+
+    @media (max-width: 980px) {
+      .nav-actions .button-secondary {
+        display: none;
+      }
     }
 
     @media (max-width: 920px) {
@@ -646,6 +668,14 @@
         display: block;
         margin-bottom: 4px;
       }
+
+      .nav-actions {
+        display: none;
+      }
+
+      h1 {
+        letter-spacing: -0.06em;
+      }
     }
   </style>
 </head>
@@ -655,13 +685,18 @@
   <header>
     <div class="container nav">
       <a href="#" class="brand">Viraj Deorukhkar Tutoring</a>
+
       <nav class="nav-links">
         <a href="#subjects">Subjects</a>
         <a href="#approach">Approach</a>
         <a href="#admissions">Admissions</a>
         <a href="#contact">Contact</a>
       </nav>
-      <a class="button button-primary" href="mailto:viraj.deorukhkar@hotmail.com">Enquire</a>
+
+      <div class="nav-actions">
+        <a class="button button-secondary" href="https://wa.me/447758665819">WhatsApp me</a>
+        <a class="button button-primary" href="mailto:viraj.deorukhkar@hotmail.com">Email me</a>
+      </div>
     </div>
   </header>
 
@@ -669,9 +704,10 @@
     <marquee behavior="scroll" direction="left" scrollamount="5">
       <span>Now booking for summer 2026</span>
       <span>A-level Chemistry & Biology</span>
+      <span>GCSE Science support</span>
       <span>Cambridge Natural Sciences graduate</span>
       <span>Incoming UCL medical student</span>
-      <span>Online lessons with a permanent whiteboard classroom</span>
+      <span>Online lessons with saved whiteboards</span>
     </marquee>
   </div>
 
@@ -679,17 +715,17 @@
     <section class="hero">
       <div class="container hero-grid">
         <div>
-          <div class="eyebrow"><span class="eyebrow-dot"></span> Online tutoring for ambitious students</div>
+          <div class="eyebrow"><span class="eyebrow-dot"></span> Online GCSE and A-level science tutoring</div>
 
-          <h1>Clear, structured science tutoring that goes beyond the lesson hour.</h1>
+          <h1>Online Chemistry and Biology tutoring that is clear, organised and tailored to the student.</h1>
 
           <p class="hero-copy">
-            Premium online A-level Chemistry and Biology tutoring from a Cambridge Natural Sciences graduate and incoming UCL medical student. I help students build understanding, confidence and exam technique through calm explanations, targeted practice and steady progress tracking.
+            I’m Viraj, a Cambridge Natural Sciences graduate and incoming UCL medical student. I tutor GCSE and A-level Chemistry and Biology online, mainly helping students make difficult topics feel manageable, practise exam questions properly and build confidence over time.
           </p>
 
           <div class="hero-actions">
-            <a class="button button-primary" href="mailto:viraj.deorukhkar@hotmail.com">Book a consultation</a>
-            <a class="button button-secondary" href="#subjects">See what I offer</a>
+            <a class="button button-primary" href="mailto:viraj.deorukhkar@hotmail.com">Email me</a>
+            <a class="button button-secondary" href="https://wa.me/447758665819">Message me on WhatsApp</a>
           </div>
 
           <div class="mini-proof">
@@ -712,8 +748,8 @@
           <div class="credential-list">
             <div class="credential"><span class="tick">✓</span> A-level Chemistry and Biology specialist</div>
             <div class="credential"><span class="tick">✓</span> GCSE Science support across all exam boards</div>
-            <div class="credential"><span class="tick">✓</span> Tailored question packs, model answers and homework feedback</div>
-            <div class="credential"><span class="tick">✓</span> Regular progress monitoring and parent communication where helpful</div>
+            <div class="credential"><span class="tick">✓</span> Tailored question packs, model answers and past-paper practice</div>
+            <div class="credential"><span class="tick">✓</span> Parent communication available where helpful</div>
           </div>
         </aside>
       </div>
@@ -723,9 +759,9 @@
       <div class="container">
         <div class="section-heading">
           <div class="section-kicker">Subjects</div>
-          <h2>Focused support for science exams and admissions.</h2>
+          <h2>Support for GCSE, A-level and university admissions.</h2>
           <p>
-            I work with students who want clear explanations, structured revision and exam-focused practice, rather than ad hoc homework help.
+            I work with students who want lessons to feel useful, focused and properly prepared, rather than just another hour of homework help.
           </p>
         </div>
 
@@ -742,10 +778,10 @@
               </svg>
             </div>
             <h3>A-level Chemistry</h3>
-            <p>Organic, physical and inorganic chemistry taught with clear mechanisms, calculations and exam technique.</p>
+            <p>Organic, physical and inorganic chemistry, with a strong focus on understanding, mechanisms, calculations and exam technique.</p>
             <ul>
               <li>Past-paper question practice</li>
-              <li>Targeted weak-topic repair</li>
+              <li>Topic-by-topic consolidation</li>
               <li>Model answer training</li>
             </ul>
           </article>
@@ -761,9 +797,9 @@
               </svg>
             </div>
             <h3>A-level Biology</h3>
-            <p>Support with difficult concepts, application questions and mark scheme-focused written answers.</p>
+            <p>Clear explanations of complex topics, plus practice with application questions and mark scheme wording.</p>
             <ul>
-              <li>Complex topics made manageable</li>
+              <li>Difficult concepts made manageable</li>
               <li>Exam wording and precision</li>
               <li>Confidence-building explanations</li>
             </ul>
@@ -778,12 +814,12 @@
                 <path d="M207 42l8 8 15-18" fill="none" stroke="#1F2933" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
               </svg>
             </div>
-            <h3>GCSE & Admissions</h3>
-            <p>GCSE science support, plus Cambridge Natural Sciences and A100 Medicine admissions guidance.</p>
+            <h3>GCSE Science</h3>
+            <p>GCSE Biology, Chemistry and general science support for students who need clearer explanations and more structured practice.</p>
             <ul>
               <li>All exam boards welcome</li>
-              <li>Personal statement feedback</li>
-              <li>Mock interviews</li>
+              <li>Revision and exam preparation</li>
+              <li>Support before mocks and final exams</li>
             </ul>
           </article>
         </div>
@@ -794,26 +830,26 @@
       <div class="container">
         <div class="feature-panel">
           <div>
-            <div class="section-kicker">The difference</div>
-            <h2>More than just the hour’s tuition.</h2>
+            <div class="section-kicker">My approach</div>
+            <h2>I keep track of progress between lessons.</h2>
             <p>
-              I treat tutoring as a continuous process of development. Lessons are planned around what the student actually needs, with resources, homework and feedback used to build steady progress over time.
+              I try not to make tutoring feel like a one-off weekly hour. I keep track of what each student is finding difficult, what we’ve covered and what needs revisiting, so lessons build on each other properly.
             </p>
             <div class="feature-list">
-              <div class="feature-item">Tailored question packs and model answers</div>
-              <div class="feature-item">Homework set and marked where requested</div>
-              <div class="feature-item">Strengths, weaknesses, aims and targets tracked over time</div>
-              <div class="feature-item">Happy to speak with parents about progress</div>
+              <div class="feature-item">A simple monitoring sheet for strengths, weaknesses, aims and targets</div>
+              <div class="feature-item">Tailored question packs and model answers where useful</div>
+              <div class="feature-item">Homework set and marked if requested</div>
+              <div class="feature-item">Progress discussions with parents where helpful</div>
             </div>
           </div>
 
           <div class="feature-visual">
             <div class="whiteboard">
-              <strong>Student progress sheet</strong>
+              <strong>Example lesson flow</strong>
               <div class="whiteboard-line mid"></div>
               <div class="whiteboard-line"></div>
               <div class="whiteboard-line short"></div>
-              <div class="equation">weak area → targeted practice → confidence</div>
+              <div class="equation">weak area → explanation → practice → revisit</div>
               <div class="whiteboard-line mid"></div>
               <div class="whiteboard-line short"></div>
             </div>
@@ -826,28 +862,28 @@
       <div class="container">
         <div class="section-heading">
           <div class="section-kicker">How lessons work</div>
-          <h2>A calm, structured online setup.</h2>
+          <h2>Structured online lessons without losing the personal feel.</h2>
           <p>
-            Lessons are online, but designed to feel organised, personal and easy to revisit afterwards.
+            Lessons are online using Microsoft Teams and an interactive whiteboard, but the setup is designed to make the work easy to follow and easy to revisit afterwards.
           </p>
         </div>
 
         <div class="steps">
           <div class="step">
-            <h3>Diagnose</h3>
-            <p>We identify weak areas, exam-board requirements and the student’s immediate goals.</p>
+            <h3>Work out the gaps</h3>
+            <p>We identify weak topics, exam-board requirements and what the student wants to improve first.</p>
           </div>
           <div class="step">
-            <h3>Teach</h3>
-            <p>Difficult ideas are broken down clearly using an interactive whiteboard.</p>
+            <h3>Explain clearly</h3>
+            <p>I break difficult ideas down using diagrams, examples and worked problems on the whiteboard.</p>
           </div>
           <div class="step">
-            <h3>Practise</h3>
-            <p>We work through carefully selected past-paper questions and model answers.</p>
+            <h3>Practise properly</h3>
+            <p>We use selected past-paper questions and model answers, not random unfocused practice.</p>
           </div>
           <div class="step">
-            <h3>Track</h3>
-            <p>Progress is monitored lesson by lesson, with targets updated over time.</p>
+            <h3>Keep revisiting</h3>
+            <p>I keep track of what has improved and what still needs more work in future lessons.</p>
           </div>
         </div>
       </div>
@@ -859,18 +895,47 @@
           <div class="section-kicker">Online classroom</div>
           <h3>A permanent whiteboard space for every student.</h3>
           <p>
-            Lessons are delivered using Microsoft Teams and an online whiteboard. Each student has their own permanent classroom, so past whiteboards remain available throughout the year.
+            Each student gets their own online classroom. This means all the whiteboards from previous lessons stay saved in one place, instead of disappearing after the lesson ends.
           </p>
           <ul>
-            <li>All previous lesson boards saved</li>
-            <li>Whiteboards can be downloaded, printed or revisited</li>
-            <li>Useful for revision before tests and mocks</li>
+            <li>Lessons delivered through Microsoft Teams and an online whiteboard</li>
+            <li>Past whiteboards remain available throughout the year</li>
+            <li>Whiteboards can be downloaded, saved or printed for revision</li>
           </ul>
         </div>
 
         <div class="quote">
           <p>“Testimonials coming soon.”</p>
-          <span>Student and parent quotes will be added here.</span>
+          <span>I’ll add student and parent quotes here once I have permission to use them.</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container split">
+        <div class="large-card">
+          <div class="section-kicker">Experience</div>
+          <h3>3+ years of tutoring experience.</h3>
+          <p>
+            I have tutored more than 10 students across Chemistry and Biology. I have also created tailored resources, including question packs and model answers, with other tutors.
+          </p>
+          <p>
+            Some students have improved by around two grades over time, especially when lessons have been combined with regular independent work.
+          </p>
+        </div>
+
+        <div class="large-card">
+          <div class="section-kicker">Summer 2026</div>
+          <h3>Year 12 → Year 13 head start.</h3>
+          <p>
+            Summer can be a useful time to consolidate Year 12 content, fix weaker topics and start Year 13 without feeling like everything has been forgotten.
+          </p>
+          <ul>
+            <li>Organic chemistry and mechanisms</li>
+            <li>Physical chemistry calculations</li>
+            <li>Biology application and extended answers</li>
+            <li>Preparation before autumn mocks</li>
+          </ul>
         </div>
       </div>
     </section>
@@ -881,7 +946,7 @@
           <div class="section-kicker">Admissions support</div>
           <h2>Cambridge Natural Sciences and A100 Medicine applications.</h2>
           <p>
-            Alongside science tutoring, I also offer admissions support for students applying to Cambridge Natural Sciences or A100 Medicine.
+            Alongside GCSE and A-level tutoring, I also offer admissions support for students applying to Cambridge Natural Sciences or A100 Medicine.
           </p>
         </div>
 
@@ -889,7 +954,7 @@
           <div class="large-card">
             <h3>Cambridge Natural Sciences</h3>
             <p>
-              Support with personal statements, interview preparation and developing the kind of scientific reasoning expected in Cambridge admissions.
+              I can help applicants prepare for the style of thinking expected in Cambridge Natural Sciences admissions, including personal statement discussion and interview preparation.
             </p>
             <ul>
               <li>Personal statement feedback</li>
@@ -901,12 +966,12 @@
           <div class="large-card">
             <h3>A100 Medicine</h3>
             <p>
-              As an incoming UCL medical student with a track record of success in the A100 admissions process, I can help applicants present their motivation, experience and communication skills clearly.
+              As an incoming UCL medical student with a track record of success in the A100 admissions process, I can help applicants think clearly about their motivation, work experience and interview answers.
             </p>
             <ul>
               <li>Personal statement advice</li>
               <li>Interview preparation</li>
-              <li>Admissions strategy and application narrative</li>
+              <li>Help structuring experience and motivation clearly</li>
             </ul>
           </div>
         </div>
@@ -921,7 +986,10 @@
             <h2>Now booking for summer 2026.</h2>
             <div class="price">From £32/hour</div>
             <p style="color: var(--muted);">
-              Please get in touch with the student’s year group, subject, exam board and what they would like help with.
+              To get in touch, please email me or send a WhatsApp message with the student’s year group, subject, exam board and what they would like help with.
+            </p>
+            <p style="color: var(--muted); margin-top: 10px;">
+              Please message initially rather than calling.
             </p>
           </div>
 
@@ -938,7 +1006,11 @@
               <strong>Location</strong>
               <span>Online tutoring · Cambridge, Nottingham & London</span>
             </div>
-            <a class="button button-primary" href="mailto:viraj.deorukhkar@hotmail.com">Send an enquiry</a>
+
+            <div class="contact-buttons">
+              <a class="button button-primary" href="mailto:viraj.deorukhkar@hotmail.com">Email me</a>
+              <a class="button button-secondary" href="https://wa.me/447758665819">Message me on WhatsApp</a>
+            </div>
           </div>
         </div>
       </div>
@@ -946,7 +1018,7 @@
   </main>
 
   <footer>
-    © Viraj Deorukhkar Tutoring · Enhanced DBS checked · Online science tutoring
+    © Viraj Deorukhkar Tutoring · Enhanced DBS checked · Online GCSE and A-level science tutoring
   </footer>
 
 </body>
